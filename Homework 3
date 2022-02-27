@@ -1,0 +1,32 @@
+#Number1
+import random
+x = 7
+y = 0
+while x!=y:
+    y = int(input("Введите число от 1 до 10:"))
+    if x < y:
+      print("Меньше")  
+    elif x > y:
+      print("Больше")
+print(f"Победа")
+  
+  
+  
+  
+  
+ #Number2
+ import random
+
+def random_password()->str:
+   loong=random.randint(7,10)
+   password=""
+   for i in range(loong):
+       password +=chr(random.randint(32,127))
+   return password
+print(random_password)
+
+
+
+
+
+#Number
